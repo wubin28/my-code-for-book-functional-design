@@ -8,4 +8,3 @@
 (defn -main [& args]
   (foo "Clojure"))
 
-(-main)
