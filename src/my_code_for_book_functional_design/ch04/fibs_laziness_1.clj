@@ -1,4 +1,4 @@
-(ns my-code-for-book-functional-design.ch04.fibs-laziness)
+(ns my-code-for-book-functional-design.ch04.fibs-laziness-1)
 
 (declare fib)
 
