@@ -12,4 +12,4 @@
     :else (fibs-work n 2 [1 1])))
 
 (defn -main [& args]
-  (println (fibs 15)))
+  (println (fibs 14)))
