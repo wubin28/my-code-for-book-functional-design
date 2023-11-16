@@ -1,4 +1,4 @@
-(ns my-code-for-book-functional-design.ch03.fibs-iteration)
+(ns my-code-for-book-functional-design.ch03.fibs-iteration-1)
 
 (defn fibs-work [n i fs]
   (if (= i n)
