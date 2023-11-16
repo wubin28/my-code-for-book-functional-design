@@ -1,4 +1,4 @@
-(ns my-code-for-book-functional-design.ch04.fibs-laziness-1)
+(ns my-code-for-book-functional-design.ch04.fibs-laziness-3)
 
 (declare fib)
 
@@ -14,6 +14,7 @@
 (defn lazy-fibs []
   (map fib (rest (range))))
 
-; Update the -main function to use lazy-fibs and print the first 19 Fibonacci numbers
+(def list-of-fibs (lazy-fibs))
+
 (defn -main [& args]
-  (println (take 19 (lazy-fibs))))
+  (println (take 20 list-of-fibs)))
