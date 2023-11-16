@@ -1,4 +1,4 @@
-(ns my-code-for-book-functional-design.ch03.fibs-recursion-2)
+(ns my-code-for-book-functional-design.ch03.fibs-iteration-2)
 
 (defn ifib
   ([n a b]
