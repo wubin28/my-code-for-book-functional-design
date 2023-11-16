@@ -13,5 +13,3 @@
 
 (defn -main [& args]
   (println (fibs 15)))
-
-(-main)
