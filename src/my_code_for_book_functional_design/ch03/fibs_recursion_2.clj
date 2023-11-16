@@ -1,4 +1,4 @@
-(ns my-code-for-book-functional-design.ch03.fibs-iteration-3)
+(ns my-code-for-book-functional-design.ch03.fibs-recursion-2)
 
 (declare fib)
 
